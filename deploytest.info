@@ -1,0 +1,14 @@
+name = deploytest
+description = deploytest profile, used to test if the deployment rutine works as expected
+core = 7.x
+
+; Core dependencies
+
+; Adapt install module dependencies
+dependencies[] = adapt_core
+dependencies[] = adapt_media
+dependencies[] = adapt_wysiwyg
+
+; Project dependencies
+
+; Project submodule dependencies

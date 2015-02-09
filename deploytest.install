@@ -1,0 +1,17 @@
+<?php
+/**
+ * @file
+ * Example install file.
+ */
+ 
+ 
+ /**
+ * Implements hook_install().
+ */
+function deploytest_install() {
+
+  // Enable the profile specific theme.
+  theme_enable(array('deploytest_theme'));
+  variable_set('theme_default', 'deploytest_theme');
+  
+}
